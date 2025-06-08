@@ -44,6 +44,9 @@ def query_tanet_whois(ip):
     except Exception:
         return None, None
 
+
+
+
 # 連接資料庫
 db_path = r"C:/Users/jay00/OneDrive/桌面/zeroday/zzd.sqlite"
 conn = sqlite3.connect(db_path)
@@ -186,4 +189,10 @@ else:
 conn.close()
 
 
-print("master")
+
+
+
+
+if __name__ == "__main__":
+    pass
+    # main()
