@@ -184,3 +184,6 @@ else:
     print("無 target 或 incident_sn")
 
 conn.close()
+
+
+print("master")
